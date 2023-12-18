@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+        {% block content %}
+    
+<div class="container">
+    <h1 class="text-center bg-success text-white">Diseases</h1>
+    <br>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Incharge Name</th>
+          <th>Location </th>
+          <th>Disease </th>
+          <th>No. of Affected Trees</th>
+          
+          
+        </tr>
+      </thead>
+      <tbody>
+        {% for i in info_22 %}
+        <tr>
+          <td>{{ i.Incharge_Name }}</td>
+          <td>{{ i.Location }}</td>
+          
+          <td>{{ i.Disease}}</td>
+          <td>{{ i.Affected_Trees }}</td>
+          
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endblock %}

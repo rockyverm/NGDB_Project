@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "657d4033822850efadd1711f"
+  },
+  "InchargeName": "Ram",
+  "Moneyalloted": "100000"
+},
+{
+  "_id": {
+    "$oid": "657d40a9822850efadd17120"
+  },
+  "InchargeName": "Eshwar",
+  "Moneyalloted": "200000"
+},
+{
+  "_id": {
+    "$oid": "657d40be822850efadd17121"
+  },
+  "InchargeName": "Mukesh",
+  "Moneyalloted": "150000"
+},
+{
+  "_id": {
+    "$oid": "657d40d3822850efadd17122"
+  },
+  "InchargeName": "Chirag",
+  "Moneyalloted": "120000"
+},
+{
+  "_id": {
+    "$oid": "657d40ea822850efadd17123"
+  },
+  "InchargeName": "Gaurav",
+  "Moneyalloted": "180000"
+}]

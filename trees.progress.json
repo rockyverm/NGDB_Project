@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "657d412b822850efadd17125"
+  },
+  "Location": "Third_i",
+  "Recovered_tree": "8",
+  "Un_recovered_tree": "2"
+},
+{
+  "_id": {
+    "$oid": "657d41b7822850efadd17126"
+  },
+  "Location": "Lycium",
+  "Recovered_tree": "3",
+  "Un_recovered_tree": "0"
+},
+{
+  "_id": {
+    "$oid": "657d41dc822850efadd17127"
+  },
+  "Location": "Garnet C",
+  "Recovered_tree": "10",
+  "Un_recovered_tree": "5"
+},
+{
+  "_id": {
+    "$oid": "657d41fe822850efadd17128"
+  },
+  "Location": "Library",
+  "Recovered_tree": "10",
+  "Un_recovered_tree": "10"
+},
+{
+  "_id": {
+    "$oid": "657d4214822850efadd17129"
+  },
+  "Location": "Orion",
+  "Recovered_tree": "25",
+  "Un_recovered_tree": "20"
+}]

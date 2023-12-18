@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "657d3de8822850efadd17119"
+  },
+  "Affected_Trees": "17",
+  "Disease": "Anthracnose",
+  "Incharge_Name": "Ram",
+  "Location": "Third_i"
+},
+{
+  "_id": {
+    "$oid": "657d3f49822850efadd1711a"
+  },
+  "Affected_Trees": "10",
+  "Disease": "Leaf rusts",
+  "Incharge_Name": "Eshwar",
+  "Location": "Lycium"
+},
+{
+  "_id": {
+    "$oid": "657d3f84822850efadd1711b"
+  },
+  "Affected_Trees": "15",
+  "Disease": "Tar spot",
+  "Incharge_Name": "Mukesh",
+  "Location": "Garnet-C"
+},
+{
+  "_id": {
+    "$oid": "657d3fb7822850efadd1711c"
+  },
+  "Affected_Trees": "20",
+  "Disease": "Leaf blister",
+  "Incharge_Name": "Chirag",
+  "Location": "Library"
+},
+{
+  "_id": {
+    "$oid": "657d3fec822850efadd1711d"
+  },
+  "Affected_Trees": "45",
+  "Disease": "Leaf spots",
+  "Incharge_Name": "Gaurav",
+  "Location": "Orion"
+}]

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+        {% block content %}
+        
+<div class="container">
+    <h1 class="text-center bg-success text-white">Funds </h1>
+    <br>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Incharge Name</th>
+          <th>Money Allotted</th>
+          
+          
+        </tr>
+      </thead>
+      <tbody>
+        {% for i in prepmat_22 %}
+        <tr>
+          <td>{{ i.InchargeName}}</td>
+          <td>{{ i.Moneyalloted}}</td>
+          
+          
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endblock %}

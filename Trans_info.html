@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+        {% block content %}
+<div style="margin:30px">
+
+{% for i in courses_22 %}
+<div class="container2" style="background-color: #f2f2f2; padding: 20px; margin: 30px;border-radius: 5px;">
+        <h3 style="color: #333; font-family: Arial, sans-serif;">{{ i.Course_Name }}</h3>
+        <p class="details">Location: {{ i.Location}}</p>
+        <p class="details">No of Recovered Trees: {{ i.Recovered_tree }}</p>
+        <p class="details">No of Unrecovered Trees: {{ i.Un_recovered_tree}}</p>
+        
+      </div>
+{% endfor %}
+</div>
+{% endblock %}
